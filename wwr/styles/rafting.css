@@ -1,0 +1,48 @@
+:root{
+    --primary-color: #ffff00;
+    --secondary-color: #020887;
+    --accent1-color: #334195;
+    --acent2-color: #647AA3;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: var(--secondary-color);
+
+}
+
+h1 {
+    font-weight: 700;
+    
+}
+
+h2 {
+    font-weight: 600;
+}
+
+p {
+    color: var(--acent2-color);
+    font-family: "Gidole", sans-serif;
+}
+
+nav img {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+}
+
+article p {
+    background-color: var(--primary-color);
+}
