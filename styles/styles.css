@@ -2,6 +2,7 @@
     --heading-color: darkblue;
     --main-color: white;
 }
+
 nav {
     background-color: var(--heading-color);
     padding: 10px;
@@ -15,10 +16,9 @@ nav a {
 
 h1 {
     color: var(--heading-color);
-    font-weight: 100;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -30,8 +30,33 @@ p {
     padding: 10px;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+main {
+    max-width: 1000px;
 }
 
+aside {
+    width: 40rem;
+    margin: 1rem;
+    border: 2px solid rgb(0 0 0 / 0.2);
+    padding: 2rem;
+    background-color: var(--heading-color);
+    color: var(--main-color);  
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+p {padding: 0;}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
