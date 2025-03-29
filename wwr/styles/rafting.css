@@ -1,4 +1,4 @@
-:root{
+:root {
     --primary-color: #ffff00;
     --secondary-color: #020887;
     --accent1-color: #334195;
@@ -8,41 +8,63 @@
 body {
     font-family: "Montserrat", sans-serif;
     color: var(--secondary-color);
+}
 
+.hero img {
+    position: relative;
+    display: blocK;
+    width: 100%;
+    height: auto;
 }
 
 h1 {
+    position: absolute;
+    top: 150px;
+    left: 550px;
     font-weight: 700;
-    
+    font-size: 80px;
+    background-color: var(--primary-color);
+    opacity: 0.6;
+    padding: 10px;
+}
+
+article p {
+    position: absolute;
+    bottom: 10px;
+    background-color: var(--primary-color);
+    padding: 60px;
+    margin: 20px;
+    opacity: 0.8;
+}
+
+article img {
+    float: right;
+    max-width: 300px;
+    max-height: auto;
 }
 
 h2 {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 70px;
 }
 
 p {
     color: var(--acent2-color);
     font-family: "Gidole", sans-serif;
+    font-size: 50px;
+}
+
+section p {
+    color: #020887;
+    font-size: 700;
+}
+
+section img {
+    display: block;
+    margin: 20px;
+    border: 2px solid black;
 }
 
 nav img {
     text-decoration: none;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-article {
-    position: absolute;
-}
-
-article img {
-    float: right;
-}
-
-article p {
-    background-color: var(--primary-color);
 }
