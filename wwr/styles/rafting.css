@@ -15,17 +15,18 @@ body {
     display: blocK;
     width: 100%;
     height: auto;
+    margin-top: 30px;
 }
 
 h1 {
     position: absolute;
     top: 150px;
-    left: 550px;
+    left: 850px;
     font-weight: 700;
     font-size: 80px;
     background-color: var(--primary-color);
     opacity: 0.6;
-    padding: 10px;
+    padding: 15px;
 }
 
 article p {
@@ -46,6 +47,7 @@ article img {
 h2 {
     font-weight: 700;
     font-size: 70px;
+    text-align: center;
 }
 
 p {
@@ -57,14 +59,69 @@ p {
 section p {
     color: #020887;
     font-size: 700;
+    text-align: center;
 }
 
 section img {
-    display: block;
     margin: 20px;
-    border: 2px solid black;
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #cbcdf1;
+    background-color: rgb(223, 241, 246);
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav img {
+    padding-right: 100px;
+    margin: 0 0.25rem 0 1rem;
+    width: 150px;
+    height: auto;
+    text-decoration: none; 
+}   
+
+header nav a {
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 25px;
     text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: crimson;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(223, 241, 246);
+    padding: 10px;
+}
+
+footer p {
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav a {
+    padding-left: 500px;
+    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main section {
+    border: 1px var(--secondary-color);
 }
